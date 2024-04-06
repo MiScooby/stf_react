@@ -35,12 +35,6 @@ a {
 .gap-30 {
   gap: 30px;
 }
-
-.hny_common_btn:hover {
-  background-color: transparent;
-  border: 2px solid #fee40f;
-}
-
 .hny_common_btn {
   font-family: "DM Sans", sans-serif;
   background-color: #fee40f;
