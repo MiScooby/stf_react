@@ -1,5 +1,7 @@
 /* Sections */
-
+.top-hero-head{
+    width: 50% !important;
+}
 .section-head {
     position: relative;
 
@@ -10,7 +12,7 @@
     padding: 0;
     margin: 0 0 20px;
     font-size: 35px;
-    line-height: 60px;
+    line-height: 45px;
     letter-spacing: -1.08px;
     text-transform: uppercase;
     color: #fff;
@@ -36,11 +38,32 @@
     align-items: center;
 }
 
-.text-part p{
-    font-size: 18px;
-    color: #fff;
+.text-part p {
+    font-size: 14px;
+    color: #d9d9d9;
 }
 
-.top-hero-head .text-part{
-    width: 50%;
+.hero-utils{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.youTubbtn{
+    padding-left: 15px;
+    cursor: pointer;
+}
+.youTubbtn img{
+    width: 50px;
+}
+
+.youTubbtn span{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+
+.hny_common_btn.light{
+    background-color: #fff;
 }
