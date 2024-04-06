@@ -1,69 +1,134 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import { Link } from "react-router-dom";
 import "./footer.css";
-import Form from "react-bootstrap/Form";
-import InputGroup from "react-bootstrap/InputGroup";
+import { Link } from "react-router-dom";
 export function Footer() {
   return (
-    <Container fluid className="footer">
-      <Row className="pb-5">
-        <Col md="3" xs={12} className="px-3">
-          <Link className="navbar-brand" to="/">
-            <img src="/logo.png" width="150px" alt="" className="footer-logo"/>
-          </Link>
-          <p className="para-foot">
-          SatoshiFX is an ecosystem of financial products including a CEX, DEX and Derivatives trading platform allowing users to seamlessly access thousands of financial assets using the ease and speed of crypto.
-          </p>
-        </Col>
-        <Col md="3" xs={12} className="px-3">
-          <h3>Additional Links</h3>
-          <div className="d-flex justify-content-between">
-            <ul>
-              <li>Overview</li>
-              <li>How it Works</li>
-              <li>Roadmap</li>
-            </ul>
-            <ul>
-              <li>About STMX</li>
-              <li>Token</li>
-              <li>Team</li>
-            </ul>
-          </div>
-        </Col>
-        <Col md="3" xs={12} className="px-3">
-          <h3>Instagram Feed</h3>
-          <div className="d-flex justify-content-between flex-column gallery-foot gap-2">
-            <div className="d-flex gap-2 justify-content-around">
-              <img src="/gallery-img.jpg" alt="" />
-              <img src="/gallery-img-1.jpg" alt="" />
-              <img src="/gallery-img-2.jpg" alt="" />
+    <>
+      <section className="community-sec padding-top-50 padding-bottom-50 foot">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-5">
+              <div className="logo">
+                <Link href="index.php">
+                  <img
+                    width={"150px"}
+                    className="img-responsive"
+                    src="./logo.png"
+                    alt=""
+                  />
+                </Link>
+              </div>
+              <p className="mt-4">
+                The Satoshifx wealth management platform with the goal of
+                becoming the leading independent wealth platform for the
+                international financial services market. Since then we’ve
+                attracted Financial Advisers and their investors from all over
+                the world to hold their investments with us.
+              </p>
+              <div className="sm-intro mt-4">
+                <h2>Join our community</h2>
+                <ul className="socials">
+                  <li>
+                    <Link
+                      to="https://www.facebook.com/Satoshifx-104004878827302/"
+                      target="_blank"
+                    >
+                      <i className="fab fa-facebook-f"></i>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="https://twitter.com/Satoshifx6" target="_blank">
+                      <i className="fab fa-twitter"></i>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="https://t.me/satoshifx" target="_blank">
+                      <i className="fab fa-telegram-plane"></i>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="https://www.reddit.com/user/satoshifx6"
+                      target="_blank"
+                    >
+                      <i className="fab fa-reddit-alien" target="_blank"></i>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="https://www.instagram.com/satoshifx6/"
+                      target="_blank"
+                    >
+                      <i className="fab fa-instagram"></i>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="https://www.linkedin.com/company/satoshifxofficial/"
+                      target="_blank"
+                    >
+                      <i className="fab fa-linkedin-in"></i>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="https://www.youtube.com/channel/UCAZsOOGl8sjL22T0ZvjBDig"
+                      target="_blank"
+                    >
+                      <i className="fab fa-youtube"></i>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div className="d-flex gap-2 justify-content-around">
-              <img src="/gallery-img-3.jpg" alt="" />
-              <img src="/gallery-img-4.jpg" alt="" />
-              <img src="/gallery-img-5.jpg" alt="" />
+            <div className="col-md-3">
+              <h2>Quick Link</h2>
+              <ul className="links">
+                <li>
+                  <Link href="index.php">Overview</Link>
+                </li>
+                <li>
+                  <Link href="index.php">About NSTF</Link>
+                </li>
+                <li>
+                  <Link href="index.php">SatoshiFX</Link>
+                </li>
+                <li>
+                  <Link href="index.php">Token</Link>
+                </li>
+                <li>
+                  <Link href="index.php">Roadmap</Link>
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-4">
+              <h2>Get in touch</h2>
+              <p>
+                <i className="fas fa-phone"></i>&nbsp;{" "}
+                <Link href="tel:+44 20 38075111">+44 20 38075111</Link>
+              </p>
+              <p>
+                <i className="fas fa-envelope"></i>&nbsp;{" "}
+                <Link href="mailto:info@satoshifx.io">info@satoshifx.io</Link>
+              </p>
+              <p>
+                <i className="fas fa-home"></i>&nbsp; <b>Satoshi FX LLC</b>{" "}
+                <br /> Suite 305, Griffith corporate centre, Beachmont,
+                Kingstown, St Vincent and the Grenadines.
+              </p>
             </div>
           </div>
-        </Col>
-        <Col md="3" xs={12} className="px-3">
-          <h3>Search</h3>
-          <InputGroup size="lg" className="form-foot">
-            <Form.Control
-              aria-label="Large"
-              aria-describedby="inputGroup-sizing-sm"
-              placeholder="Search.."
-            />
-            <InputGroup.Text id="inputGroup-sizing-lg"><i className="fas fa-search"></i></InputGroup.Text>
-          </InputGroup>
-        </Col>
-      </Row>
-      <Row className="pt-3">
-        <Col><h6 className="text-center text-white">
-        Design And Developed By Maisha Infotech Pvt Ltd</h6></Col>
-      </Row>
-    </Container>
+        </div>
+      </section>
+      <footer id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>© Copyright 2021 SatoshiFX. All Right Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </>
   );
 }

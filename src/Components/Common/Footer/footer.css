@@ -1,81 +1,113 @@
-.footer {
-    padding: 80px 30px 20px 30px;
-    background-color: #100736;
-    border-top: 5px solid #1e124f;
+.community-sec {
+    background: #100736;
+    background-size: cover;
+    z-index: 1;
+    padding-bottom: 0;
 }
 
-.footer h3 {
-    position: relative;
-    color: #fff;
-    margin: 0 0 22px;
-    font-size: 20px !important;
-    font-weight: 400;
-    padding-bottom: 35px;
-    padding-top: 0;
-    opacity: .5;
+.community-sec:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.8);
 }
 
-.footer ul {
-    padding: 0;
-    list-style: none;
+.community-sec .socials {
+    margin-top: 0px;
+    padding: 0 !important;
 }
-.footer ul li {
-    padding: 0;
+
+.community-sec .socials li {
+    display: inline-block;
+}
+
+.community-sec .socials li a {
+    color: #daa520 !important;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 2.5px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 35px;
+    background: none;
     border: none;
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px !important;
-    list-style: none;
-}
-.gallery-foot img {
-    width: 81px;
-}
-.para-foot {
-    text-align: justify;
 }
 
-.form-foot input {
-    font-size: 13px;
-    line-height: 18px;
-    color: #222;
-    background: 0 0;
-    box-shadow: none;
-    outline: none;
-    padding: 16px 30px 15px;
-    border-radius: 0;
-    transition: all .3s ease;
-    box-sizing: border-box !important;
-    width: 100%;
-    display: block;
-    height: 49px;
-    border: 1px solid #777;
-    border-radius: 4px !important;
-    width: 100%;
-    padding: 13px 50px 13px 15px;
-    height: 44px;
-    border-color: #fff !important;
+.community-sec .socials li a:hover {
+    color: #daa520;
+    background: none;
+    border: 2px solid #daa520;
 }
-.form-foot input::placeholder {
-    color: #fff;
-    opacity: 0.5;
-    font-size: 15px;
-}
-.form-foot span {
-width: 44px;
-height: 44px;
-background: #f15a91;
-color: #f15a91;
-text-align: center;
-border: none;
-font-size: 17px;
-outline: none !important;
-transition: all .3s ease;
-}
-.footer-logo {
+
+.sm-intro {
     position: relative;
-    margin: 0 0 37px;
-    padding: 0;
+    z-index: 3;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
-.form-foot span i {
-    color: white;
+
+.sm-intro p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.community-sec h2 {
+    color: #fff;
+    font-size: 19px !important;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%; 
+}
+
+.links li {
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #dedede !important;
+}
+
+.links li a:hover {
+    text-decoration: none;
+    color: #dedede !important;
+}
+
+.foot p {
+    color: #dedede !important;
+}
+
+.foot p i {
+    color: #dedede !important;
+}
+
+.foot p a {
+    color: #dedede !important;
+}
+
+.foot p a:hover {
+    color: #dedede !important;
+}
+ 
+
+footer {
+    background: #0b0c22;
+    padding: 20px 0;
+    padding-bottom: 0px;
+    z-index: 0;
+    position: relative;
+}
+
+footer p {
+    color: #dedede !important;
+    font-size: 12px;
+    font-weight: 500;
 }
