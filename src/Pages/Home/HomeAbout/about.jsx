@@ -14,20 +14,24 @@ export function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-lg-6 col-12"></div>
+                    <div className="row mt-3">
+                        <div className="col-lg-6 col-12">
+                            <div className="about_img">
+                                <img src="/about.png" alt="" />
+                            </div>
+                        </div>
                         <div className="col-lg-6 col-12">
                             <div className="right_sec">
-                                <p>NSTF or SatoshiFX token is a Solana based SPL token that is being used as the core of our
+                                <h6>NSTF or SatoshiFX token is a Solana based SPL token that is being used as the core of our
                                     fundraising and community building efforts. NSTF will be used to provide massive discounts on
                                     our platforms trading fees, minting fees, liquidity pool creation, launchpad and various other
-                                    transactional benefits.</p>
+                                    transactional benefits.</h6>
                                 <p>NSTF coin remains as a cornerstone of the SatoshiFX platform, by providing a stabilized,
                                     sustainable business model to grow in value as the ecosystem grows.</p>
-                                <div>
-                                    <p>Transactional Fees - Trading / Gas / Pools and More</p>
-                                    <p>Fork to Own EVMOS Blockchain</p>
-                                    <p>Currency & Storage of Value</p>
+                                <div className='about_bot_card'>
+                                    <p><img src="/check.png" alt="" /> <span>Transactional Fees - Trading / Gas / Pools and More</span></p>
+                                    <p><img src="/check.png" alt="" /><span> Fork to Own EVMOS Blockchain</span></p>
+                                    <p><img src="/check.png" alt="" /> <span>Currency & Storage of Value</span></p>
                                 </div>
                             </div>
                         </div>
