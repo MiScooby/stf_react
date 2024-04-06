@@ -5,14 +5,20 @@ import "./RoadmapComponent.css"; // Import your CSS file
 
 const Milestone = ({ title, date, description, completed }) => (
   <div className={`milestone ${completed ? "completed" : ""}`}>
-    <div className="date">
-      {date}
-      <h3>{title}</h3>
-    </div>
-    <div className="connector"></div>
-    <div className="marker"></div>
-    <div className="description">
-      <h3>{description}</h3>
+    <div className="_road_map_card d-flex">
+      <div className="date">
+        <p> {date}</p>
+        <h3>{title}</h3>
+      </div>
+      <div className="hny_creative">
+        <div className="round_sr"></div>
+        <div className="bott_line_sr"></div>
+      </div>
+      <div className="rigt_dis">
+        <div className="description">
+          <h3>{description}</h3>
+        </div>
+      </div>
     </div>
   </div>
 );
@@ -28,7 +34,7 @@ const RoadmapComponent = () => {
           </div>
         </div>
         <div className="row">
-          <div className="roadmap"> 
+          <div className="roadmap">
             <div className="milestones">
               <Milestone
                 title="Stealth Mode"

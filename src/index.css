@@ -69,3 +69,8 @@ p{
 section{
   padding: 50px 0;
 }
+.main_video {
+  border: 2px solid #01db8d;
+  padding: 10px;
+  border-radius: 10px;
+}

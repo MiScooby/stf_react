@@ -6,6 +6,7 @@ import { Finance } from "./Finance/Finance";
 import RoadmapComponent from "./Roadmap/Roadmap";
 import { AboutSatoshi } from './SatoshiFX/AboutSatoshi';
 import { Bonus } from './Bonus/Bonus';
+import { Video } from './Video/Video';
 
 
 
@@ -13,6 +14,7 @@ export function Home() {
   return (
     <>
       <Hero />
+      <Video />
       <About />
       <AboutSatoshi />
       <Finance />

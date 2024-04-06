@@ -8,15 +8,16 @@
 .milestone {
     display: flex;
     align-items: flex-start;
-    height: 70px;
+    height: 130px;
 }
 
 .date {
-    padding-right: 20px;
+    padding-right: 45px;
     font-weight: 500;
     color: #e600ff;
-    font-size: 12px;
-    width: 175px;
+    font-size: 11px;
+    width: 360px;
+    text-align: end;
 }
 
 
@@ -55,7 +56,7 @@
 .milestone h3 {
     margin-top: 0;
     color: #fff;
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 500;
 }
 
@@ -66,4 +67,36 @@
 
 .roadmap h2 {
     text-align: center;
+}
+.date {
+    position: relative;
+}
+.round_sr {
+    background-image: linear-gradient(to right, #643daa, #e85790) !important;
+    width: 20px;
+    height: 20px;
+  
+}
+.bott_line_sr {
+    width: 2px;
+    height: auto;
+    display: block;
+    background-color: #e4e5e84d;
+    right: 9px;
+    height: 100px;
+}
+
+
+.description h3 {
+    font-size: 16px;
+}
+.rigt_dis {
+    padding-left: 2rem;
+    max-width: 400px;
+}
+.hny_creative{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
 }

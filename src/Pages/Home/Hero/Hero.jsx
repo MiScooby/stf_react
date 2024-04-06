@@ -26,10 +26,13 @@ export function Hero() {
               <Link className="hny_common_btn" to="">
                 Get Whitelisted
               </Link>
-              <div className="youTubbtn">
+
+
+              <button type="button" className="youTubbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <img src="./Home/play.svg" alt="" />
                 <span>Watch Now</span>
-              </div>
+              </button>
+
             </div>
           </div>
           <div className="btm-hero-part">
