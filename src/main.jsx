@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client' 
 import './index.css'
+import './common.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from "react-router-dom";
