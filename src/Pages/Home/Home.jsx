@@ -1,6 +1,7 @@
 import React from 'react'
 import { Hero } from './Hero/Hero'
 import { About } from './HomeAbout/About'
+import { AboutSatoshi } from './SatoshiFX/AboutSatoshi'
 
 
 export function Home() {
@@ -8,6 +9,7 @@ export function Home() {
     <>
       <Hero />
       <About />
+      <AboutSatoshi />
 
     </>
   )
