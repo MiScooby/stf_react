@@ -1,0 +1,27 @@
+.cardSrb {
+    background-color: #100736;
+    box-shadow: 0 1px 5px 1px #12083a;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.cardSrb img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+.cardSrb p {
+    padding: 20px;
+    font-size: 14px;
+}
+.cardSrb h4 {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    background: linear-gradient(to right, #292a91, #5b0774);
+    text-shadow: 0 1px 1px #24a771;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}

@@ -15,10 +15,7 @@ export function Footer() {
             <img src="/logo.png" width="150px" alt="" className="footer-logo"/>
           </Link>
           <p className="para-foot">
-            Fusce interdum ipsum egestas urna amet fringilla, et placerat ex
-            venenatis. Aliquet luctus pharetra. Proin sed fringilla lectusar sit
-            amet tellus in mollis. Proin nec egestas nibh, eget egestas urna.
-            Phasellus sit amet vehicula nunc. In hac habitasse platea dictumst.
+          SatoshiFX is an ecosystem of financial products including a CEX, DEX and Derivatives trading platform allowing users to seamlessly access thousands of financial assets using the ease and speed of crypto.
           </p>
         </Col>
         <Col md="3" xs={12} className="px-3">

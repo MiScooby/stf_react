@@ -5,6 +5,7 @@ import { About } from './HomeAbout/About'
 import { Finance } from "./Finance/Finance";
 import RoadmapComponent from "./Roadmap/Roadmap";
 import { AboutSatoshi } from './SatoshiFX/AboutSatoshi';
+import { Bonus } from './Bonus/Bonus';
 
 
 
@@ -16,6 +17,7 @@ export function Home() {
       <AboutSatoshi />
       <Finance />
       <RoadmapComponent />
+      <Bonus />
     </>
   );
 }
