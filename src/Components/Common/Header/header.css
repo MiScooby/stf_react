@@ -26,3 +26,7 @@ a.logg_in {
     align-items: center;
     gap: 18px;
 }
+
+.navbar-toggler-icon{
+    filter: invert(1);
+}
