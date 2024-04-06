@@ -1,4 +1,5 @@
 import React from "react";
+import './hero.css'
 import { Link } from "react-router-dom";
 
 export function Hero() {
@@ -32,15 +33,24 @@ export function Hero() {
             </div>
           </div>
           <div className="btm-hero-part">
-            <div className="row">
-              <div className="col-sm-5">
+            <div className="row align-items-center">
+              <div className="col-sm-6">
                 <h4>Pre-Sale Starting in:</h4>
                 <p>3 Months</p>
               </div>
-              <div className="col-sm-7">
-                  <div className="srb-range">
-                    
+              <div className="col-sm-6">
+                <div className="srb-range">
+                  <div className="static-range-container">
+                    <div className="softcap">Softcap = 10M USD</div>
+                    <div className="hardcap">Hardcap = 25M USD</div>
+                    <div className="range-bar">
+                      <div
+                        className="range-indicator" 
+                      > 
+                      </div>
+                    </div>
                   </div>
+                </div>
               </div>
             </div>
           </div>
