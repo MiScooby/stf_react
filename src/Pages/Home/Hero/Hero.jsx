@@ -1,5 +1,5 @@
 import React from "react";
-import './hero.css'
+import "./hero.css";
 import { Link } from "react-router-dom";
 
 export function Hero() {
@@ -44,11 +44,14 @@ export function Hero() {
                     <div className="softcap">Softcap = 10M USD</div>
                     <div className="hardcap">Hardcap = 25M USD</div>
                     <div className="range-bar">
-                      <div
-                        className="range-indicator" 
-                      > 
-                      </div>
+                      <div className="range-indicator"></div>
                     </div>
+                  </div>
+                </div>
+                <div className="mob-range">
+                  <div className="d-flex">
+                    <div className="typet">Softcap = 10M USD</div>
+                    <div className="typet">Hardcap = 25M USD</div>
                   </div>
                 </div>
               </div>
