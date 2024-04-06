@@ -10,7 +10,7 @@ export function Hero() {
             <div className="section-head">
               <h2>Neext generation security</h2>
             </div>
-            <div className="text-part" style={{width:'50%'}}>
+            <div className="text-part"  >
               <p>
                 STMX is a network of independent nodes that provide a
                 decentralized encrypted databaser service.
