@@ -20,7 +20,7 @@
     content: "";
     display: block;
     position: absolute;
-    bottom: -35px;
+    bottom: -5px;
     left: 0;
     width: 60px;
     height: 3px;
@@ -31,6 +31,9 @@
     background-position: 0 0 !important;
     background-repeat: no-repeat !important;
     background-size: cover;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
 }
 
 .text-part p{
