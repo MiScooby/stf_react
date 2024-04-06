@@ -32,3 +32,8 @@
     background-repeat: no-repeat !important;
     background-size: cover;
 }
+
+.text-part p{
+    font-size: 18px;
+    color: #fff;
+}
