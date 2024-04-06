@@ -1,13 +1,14 @@
 /* Sections */
-.top-hero-head{
+.top-hero-head {
     width: 50% !important;
 }
+
 .section-head {
     position: relative;
 
 }
 
-.section-head h2{
+.section-head h2 {
     font-weight: 600 !important;
     padding: 0;
     margin: 0 0 20px;
@@ -28,12 +29,13 @@
     height: 3px;
     background: linear-gradient(to right, #67d9c0, #2d2fa0);
 }
-.SrbHeroSection{
+
+.SrbHeroSection {
     background-image: url('../public/Home/top-bg_01.jpg') !important;
     background-position: 0 0 !important;
     background-repeat: no-repeat !important;
     background-size: cover;
-    height: 100vh; 
+    height: 100vh;
     display: flex;
     align-items: center;
     position: relative;
@@ -44,20 +46,22 @@
     color: #d9d9d9;
 }
 
-.hero-utils{
+.hero-utils {
     padding-top: 20px;
     display: flex;
     align-items: center;
 }
-.youTubbtn{
+
+.youTubbtn {
     padding-left: 15px;
     cursor: pointer;
 }
-.youTubbtn img{
+
+.youTubbtn img {
     width: 50px;
 }
 
-.youTubbtn span{
+.youTubbtn span {
     color: #fff;
     font-size: 13px;
     font-weight: 600;
@@ -65,6 +69,16 @@
     padding-left: 5px;
 }
 
-.hny_common_btn.light{
+.hny_common_btn.light {
     background-color: #fff;
+}
+
+@media(max-width:768px) {
+    .top-hero-head {
+        width: 100% !important;
+    }
+
+    .SrbHeroSection {
+        
+    }
 }
