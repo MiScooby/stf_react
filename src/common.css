@@ -94,8 +94,9 @@
         background-position: right !important;
     }
     .btm-hero-part{
-        position: unset !important; 
+        position: relative !important;
         width: 95% !important;
+        bottom: -125px !important;
     }
  
 }   

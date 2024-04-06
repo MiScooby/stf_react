@@ -81,17 +81,25 @@
      position: relative;
  }
 
- .mob-range{
-    display: none;
+ .mob-range {
+     display: none;
  }
 
  @media(max-width:768px) {
 
-    .mob-range{
-        display: block;
+     .mob-range {
+        padding-top: 15px;
+         display: block;
      }
+
      .srb-range {
          display: none;
+     }
+
+     .typet {
+         font-size: 12px;
+         color: #fff;
+         font-weight: 600;
      }
 
  }

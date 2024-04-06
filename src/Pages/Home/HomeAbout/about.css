@@ -1,48 +1,56 @@
 .common_sec_padding {
-    padding: 3rem 0;
+  padding: 3rem 0;
 }
 
 section.about_section {
-    overflow: hidden;
-    margin-top: 5rem;
+  overflow: hidden;
+  margin-top: 5rem;
 }
 .about_title {
-    text-align: center;
+  text-align: center;
 }
 .about_img img {
-    width: 100%;
-    filter: drop-shadow(2px 4px 6px #ffff);
-    object-fit: scale-down;
+  width: 100%;
+  filter: drop-shadow(2px 4px 6px #ffff);
+  object-fit: scale-down;
 }
 .about_bot_card p {
-    background-image: linear-gradient(to right, #000159, #205db3);
-    padding: 12px;
-    font-size: 11px;
-    border-radius: 7px;
-    margin: 0;
+  background-image: linear-gradient(to right, #000159, #205db3);
+  padding: 12px;
+  font-size: 11px;
+  border-radius: 7px;
+  margin: 0;
 }
 .about_bot_card {
-    display: flex;
-    align-items: center;
-    gap: 11px;
-    height: 100%;
-    border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  height: 100%;
+  border-radius: 10px;
 }
-.right_sec h6 {
-    color: white;
-    margin: 36px 0;
-    font-weight: 500 !important;
-    line-height: 27px !important;
-    font-size: 21px !important;
-    padding: 0;
-    letter-spacing: -.44px;
-    text-align: justify;
+.boltss {
+  color: white;
+  margin: 36px 0;
+
+  font-size: 18px !important;
+  padding: 0;
+  letter-spacing: -0.44px;
+  text-align: justify;
 }
 .about_bot_card img {
-    width: 20px;
+  width: 20px;
 }
 .about_bot_card p {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+@media (max-width: 768px) {
+  .about_bot_card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .about_bot_card p {
+    width: 100%;
+  }
 }
