@@ -20,3 +20,8 @@ a.logg_in {
     background-color: hsl(0deg 0% 100% / 36%);
     margin: 0 12px;
 }
+.white_lsst {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}

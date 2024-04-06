@@ -37,10 +37,10 @@ export function Header() {
                   <Link className='hny_common_btn' to="">Sign Up</Link>
                 </div>
                 <div className='hny_dividers'></div>
-                <div className="white_list_lang d-flex gap-10 align-items-center">
+                <div className="white_list_lang">
                   <div className="white_lsst">
-                    <Link to="/"><img src="/whitelist.png" alt="" /></Link>
-                    <Link to="/"><img src="/world.png" alt="" /></Link>
+                    <Link to="/"><img src="/whitelist.png" width={"32px"} alt="" /></Link>
+                    <Link to="/"><img src="/world.png" width={"30px"} alt="" /></Link>
 
                   </div>
                   {/* <div className="language">
