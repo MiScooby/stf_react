@@ -6,7 +6,7 @@ export function Hero() {
   return (
     <section className="SrbHeroSection">
       <div className="container">
-        <div className="row">
+        <div className="row ">
           <div className="top-hero-head">
             <div className="section-head">
               <h2>World’s Smartest Crypto Backed Financial Ecosystem.</h2>
@@ -49,10 +49,11 @@ export function Hero() {
                   </div>
                 </div>
                 <div className="mob-range">
-                  <div className="d-flex">
+                  <div className="d-flex justify-content-between">
                     <div className="typet">Softcap = 10M USD</div>
                     <div className="typet">Hardcap = 25M USD</div>
                   </div>
+                  <div className="typet">PreSale Price 1 NSTF = 0.075$ </div>
                 </div>
               </div>
             </div>

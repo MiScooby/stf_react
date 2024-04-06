@@ -1,0 +1,69 @@
+/* RoadmapComponent.css */
+.milestones {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 30px;
+}
+
+.milestone {
+    display: flex;
+    align-items: flex-start;
+    height: 70px;
+}
+
+.date {
+    padding-right: 20px;
+    font-weight: 500;
+    color: #e600ff;
+    font-size: 12px;
+    width: 175px;
+}
+
+
+.marker {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #007bff;
+    /* Change color as needed */
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.marker:after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    background: #fff;
+    z-index: -1;
+    display: block;
+    height: 60px;
+    left: 7px;
+    top: 2px;
+}
+
+.description {
+    flex-grow: 1;
+}
+
+.milestone.completed .marker {
+    background-color: #28a745;
+    /* Change color for completed milestones */
+}
+
+.milestone h3 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.roadmap {
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.roadmap h2 {
+    text-align: center;
+}
