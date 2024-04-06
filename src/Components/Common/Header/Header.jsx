@@ -42,7 +42,7 @@ export function Header() {
                 </div>
                 <div className="language">
                   <select class="form-select" aria-label="Default select example">
-                    <option selected><img src="./language.png" alt="" /></option>
+                    <option selected>Select Language</option>
                     <option value="English">English</option>
                     <option value="Chinese">Chinese</option>
                     <option value="Hindi">Hindi</option>
