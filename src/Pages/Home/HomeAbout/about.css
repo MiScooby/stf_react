@@ -1,0 +1,10 @@
+.common_sec_padding {
+    padding: 3rem 0;
+}
+
+section.about_section {
+    overflow: hidden;
+}
+.about_title {
+    text-align: center;
+}

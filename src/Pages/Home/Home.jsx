@@ -1,10 +1,14 @@
 import React from 'react'
 import { Hero } from './Hero/Hero'
+import { About } from './HomeAbout/About'
 
-export function Home ()   {
+
+export function Home() {
   return (
     <>
-    <Hero />
+      <Hero />
+      <About />
+
     </>
   )
 }
