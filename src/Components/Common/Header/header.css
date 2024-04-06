@@ -7,6 +7,7 @@ header.main_header {
     position: absolute;
     width: 100%;
     padding: 15px 0;
+    z-index: 1;
 }
 a.nav-link {
     color: white !important;
