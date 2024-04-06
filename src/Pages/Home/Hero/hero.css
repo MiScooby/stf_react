@@ -1,5 +1,5 @@
  .static-range-container {
-     width: 100%; 
+     width: 100%;
  }
 
  .softcap,
@@ -66,7 +66,7 @@
  }
 
  .btm-hero-part p {
-     color: #000;
+     color: #000 !important;
      font-size: 12px;
      margin: 0;
      background: #fee40f;
@@ -79,4 +79,19 @@
 
  .srb-range {
      position: relative;
+ }
+
+ .mob-range{
+    display: none;
+ }
+
+ @media(max-width:768px) {
+
+    .mob-range{
+        display: block;
+     }
+     .srb-range {
+         display: none;
+     }
+
  }
