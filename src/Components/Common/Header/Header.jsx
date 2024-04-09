@@ -1,15 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './header.css'
 
 export function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  // Function to handle button click
+  const handleButtonClick = () => {
+    setIsOpen(!isOpen); // Toggle isOpen state
+  };
+
   return (
     <>
       <header className='main_header'>
-        <nav className="navbar navbar-expand-lg bg-body-dark">
+      <nav className={`navbar navbar-expand-lg bg-body-dark ${isOpen ? 'open ' : ''}`}>
           <div className="container-fluid">
             <Link className="navbar-brand" to="/"><img src="/logo.png" width="150px" alt="" /></Link>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button onClick={handleButtonClick} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -32,9 +39,8 @@ export function Header() {
 
               </ul>
               <div className="d-flex right_header gap-20 align-items-center">
-                <div className="log_innd">
-                  <Link className='logg_in' to="">Log In</Link>
-                  <Link className='hny_common_btn' to="">Sign Up</Link>
+                <div className="log_innd"> 
+                  <Link className='hny_common_btn' to="https://crm.satoshifx.com/login" target="_blank">Sign Up</Link>
                 </div>
                 <div className='hny_dividers'></div>
                 <div className="white_list_lang">

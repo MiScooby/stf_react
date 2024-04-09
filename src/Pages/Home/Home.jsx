@@ -7,6 +7,7 @@ import RoadmapComponent from "./Roadmap/Roadmap";
 import { AboutSatoshi } from './SatoshiFX/AboutSatoshi';
 import { Bonus } from './Bonus/Bonus';
 import { Video } from './Video/Video';
+import Token from './Token/Token';
 
 
 
@@ -19,6 +20,7 @@ export function Home() {
       <AboutSatoshi />
       <Finance />
       <RoadmapComponent />
+      <Token />
       <Bonus />
     </>
   );

@@ -28,10 +28,10 @@ export function Hero() {
               </Link>
 
 
-              <button type="button" className="youTubbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              {/* <button type="button" className="youTubbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <img src="./Home/play.svg" alt="" />
                 <span>Watch Now</span>
-              </button>
+              </button> */}
 
             </div>
           </div>

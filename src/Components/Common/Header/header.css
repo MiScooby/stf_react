@@ -30,3 +30,17 @@ a.logg_in {
 .navbar-toggler-icon{
     filter: invert(1);
 }
+button:focus:not(:focus-visible) {
+    outline: 0;
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 768px) {
+header.main_header {
+    padding: 0;
+}
+    nav.navbar.navbar-expand-lg.open {
+        background: #000;
+        padding-bottom: 20px;
+    }
+}

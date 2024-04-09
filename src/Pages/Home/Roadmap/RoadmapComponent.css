@@ -100,3 +100,21 @@
     gap: 7px;
     align-items: center;
 }
+
+@media only screen and (max-width: 768px) {
+    ._road_map_card{
+        width: 100%;
+    }
+    .date {
+        font-size: 10px;
+        width: 100px;
+    }
+    .milestone h3 { 
+        font-size: 14px;
+        font-weight: 800;
+    }
+    .description h3{
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
