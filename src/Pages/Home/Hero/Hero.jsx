@@ -20,9 +20,9 @@ export function Hero() {
               </p>
             </div>
             <div className="hero-utils">
-              <Link className="hny_common_btn light me-2" to="">
+              <a className="hny_common_btn light me-2" target="_blank" download href="./public/whitepaper.pdf">
                 Download Whitepaper
-              </Link>
+              </a>
 
 
               <Link type="button" class="hny_common_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
