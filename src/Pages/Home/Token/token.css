@@ -1,69 +1,94 @@
-.token_range {
-    display: flex;
-    margin-top: 30px;
-    justify-content: center;
+p.stfx_discription.mt-4 {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
 }
-.rangeWrapper{
-    width: 100%;
-    color: #fff;
-    text-align: center;
+.left_stfs h3 {
+  color: white;
+  transform: rotate(270deg);
+  letter-spacing: 2px;
+  font-size: 25px;
+  position: absolute;
+  left: -2px;
+  top: -47px;
+}
+.left_stfs {
+  position: relative;
+}
+.proj_card {
+  margin-bottom: 4rem;
 }
 
-.rangeWrapper span{
-    font-size: 10px;
-    font-weight:600; 
+.proj_card h4 {
+  color: white;
+  font-size: 17px;
 }
-.range{
-    padding: 5px 10px;
+.proj_card h2 {
+  font-size: 45px !important;
+  background: -webkit-linear-gradient(#eee, #590874);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900 !important;
+}
+.graph-discription p {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+.graph_list ul li {
+  color: white;
+  background-image: linear-gradient(to right, #000159, #205db3);
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 7px;
+  margin: 0;
+}
+.graph_list ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+.graph-discription {
+  border-top: 1px solid #414141;
+  padding-top: 17px;
+}
+
+.asdf {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .left_stfs h3 {
+    color: white;
+    transform: rotate(0deg);
+    letter-spacing: 2px;
+    font-size: 30px;
+    position: static;
+    margin-bottom: 3rem;
+  }
+  .proj_card {
+    margin-bottom: 2rem;
+  }
+
+  .proj_card h4 {
+    color: white;
     font-size: 12px;
-    text-align: center;
-    margin: 0 5px; 
-    color: #fff;
-    font-weight: 600;
-    border-radius: 10px;
-}
-
-.inodo {
-    padding:10px 45px;
-}
-.inodo h5{
-    font-size: 16px;
-    font-weight: 700;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-.inodo p{
+  }
+  .proj_card h2 {
+    font-size: 25px !important;
+  }
+  .proj_card {
+    margin-bottom: 2rem;
+  }
+  .graph_list ul li {
+    font-size: 12px;
+  }
+  .graph-discription p {
     font-size: 14px;
-    width: 90%;
-    color: #d6d6d6 !important;
-}
-.sideEp{
-    padding: 20px;
-    text-align: center;
-    background: #b300ff;
-    margin: 10px 0;
-    border-radius: 10px;
-}
-
-.sideEp h4{
-    font-weight: 800;
-    color: #fff;
-    font-size: 18px;
-    margin: 0;
-}
-
-.sideEp p{
-    color: #f5f5f5;
-    font-size: 32px;    
-    font-weight: 800;
-
-}
-
-.bg2srb{    
-    background: #17a97b;
-}
-
-.borb-bottom{
-    border-bottom: 1px solid #3e3e3e;
+    margin-bottom: 2rem;
+  }
 }

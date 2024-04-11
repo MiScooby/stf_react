@@ -19,11 +19,7 @@ export function Footer() {
                 </Link>
               </div>
               <p className="mt-4">
-                The Satoshifx wealth management platform with the goal of
-                becoming the leading independent wealth platform for the
-                international financial services market. Since then we’ve
-                attracted Financial Advisers and their investors from all over
-                the world to hold their investments with us.
+              With a centralized crypto exchange, a decentralized exchange, a crypto-backed derivatives exchange, and over 2000+ liquidity-backed CFDs, SatoshiFX offers unparalleled opportunities for growth and investment. Join us as we embark on this transformative journey together. Join SatoshiFX—the future of money.
               </p>
               <div className="sm-intro mt-4">
                 <h2>Join our community</h2>
@@ -129,6 +125,7 @@ export function Footer() {
           </div>
         </div>
       </footer>
+      
     </>
   );
 }

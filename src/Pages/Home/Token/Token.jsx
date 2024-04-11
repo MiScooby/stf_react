@@ -17,12 +17,12 @@ export default function Token() {
       <div className="container">
         <div className="row">
           <div className="about_title">
-            <h2>NSTF Token Structure</h2>
+            <h2>Tokenomics - STFX</h2>
             <div className="header_divider"></div>
           </div>
         </div>
         <div className="row">
-          <div className="token_range">
+          {/* <div className="token_range">
             <Range
               value="90%"
               range="70%"
@@ -48,97 +48,94 @@ export default function Token() {
               color="#00c4ff"
               title="Bounty Campaign"
             />
-          </div>
+          </div> */}
+          <p className="stfx_discription mt-4">Tokenomics aimed to make STFX a sustainable token using the infrastructure of the
+            SatoshiFX platform. We have spent countless hours in modelling and projecting the tokens
+            future and its usage.
+          </p>
         </div>
-        <div className="row align-items-center mt-5">
-          <div className="col-sm-8">
-            <div className="row borb-bottom">
-              <div className="col-sm-6">
-                <div className="inodo">
-                  <h5>Pre Sale</h5>
-                  <p>
-                    17th of December 2017/2PM UTC to 5th of may 2018 / 2PM UTC
-                  </p>
-                </div>
-              </div>
-              <div className="col-sm-6">
-                <div className="inodo">
-                  <h5>Pre Sale</h5>
-                  <p>
-                    17th of December 2017/2PM UTC to 5th of may 2018 / 2PM UTC
-                  </p>
-                </div>
+
+        <div className="projection_area">
+          <div className="row align-items-center mt-5">
+            <div className="col-lg-2 col-12
+            ">
+              <div className="left_stfs">
+                <h3>STFXProjections</h3>
               </div>
             </div>
-            <div className="row">
-              <div className="col-sm-6">
-                <div className="inodo">
-                  <h5>Supply</h5>
-                  <p>
-                    500,000,000
-                  </p>
+            <div className="col-lg-10 col-12">
+              <div className="row">
+                <div className="col-lg-4 col-4">
+                  <div className="proj_card">
+                    <h4>Revenue by Y3</h4>
+                    <h2>$ 200M</h2>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-4">
+                  <div className="proj_card">
+                    <h4>Market Cap by Y5</h4>
+                    <h2>$ 100 B</h2>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-4">
+                  <div className="proj_card">
+                    <h4>Private Equity (Series D)</h4>
+                    <h2>$ 4 B</h2>
+                  </div>
                 </div>
               </div>
-              <div className="col-sm-6">
-                <div className="inodo">
-                  <h5>Accepted Currency</h5>
-                  <p>
-                    ETH, BTC, and Write Transfer
-                  </p>
+              <div className="row">
+                <div className="col-lg-4 col-4">
+                  <div className="proj_card">
+                    <h4>Transaction Fees</h4>
+                    <h2>0.5%</h2>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-sm-6">
-                <div className="inodo">
-                  <h5>Price</h5>
-                  <p>
-                    500,000,000
-                  </p>
+                <div className="col-lg-4 col-4">
+                  <div className="proj_card">
+                    <h4>Total Circ Supply</h4>
+                    <h2>4B STFX</h2>
+                  </div>
                 </div>
-              </div>
-              <div className="col-sm-6">
-                <div className="inodo">
-                  <h5>Token Distribution Date</h5>
-                  <p>
-                   5th August 2018
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-sm-6">
-                <div className="inodo">
-                  <h5>Maximum</h5>
-                  <p>
-                    Hard cap : $47,000,000
-                    SOft cap : $1,000,000
-                  </p>
-                </div>
-              </div>
-              <div className="col-sm-6">
-                <div className="inodo">
-                  <h5>Emission Rate</h5>
-                  <p>
-                   No new tokens will be
-                  </p>
+                <div className="col-lg-4 col-4">
+                  <div className="proj_card">
+                    <h4>Value / Token (Y5)</h4>
+                    <h2>$ 25</h2>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-sm-4">
-            <div className="sideEp">
-                <img src="./Home/unicorn.svg" width={'50px'} className="mb-3" alt="" />
-                <h4>ICO Participants</h4>
-                <p>310,000+</p>
+          <div className="row align-items-center">
+            <div className="col-12">
+              <div className="graph-discription">
+                <p>We have divided tokenomics into the following areas, using our team of experts who have
+                  launched multiple fintech ventures in their careers</p>
+              </div>
             </div>
-            <div className="sideEp bg2srb">
-            <img src="./Home/unicorn.svg" width={'50px'} className="mb-3" alt="" />
-                <h4>ICO Participants</h4>
-                <p>310,000+</p>
+            <div className="col-lg-6">
+              <div className="graph_list">
+                <ul>
+                  <li><span><img src="./check.png" alt="" width={"20px"} /></span> Team</li>
+                  <li><span><img src="./check.png" alt="" width={"20px"} /></span> Operations</li>
+                  <li><span><img src="./check.png" alt="" width={"20px"} /></span> Listing & Liquidity</li>
+                  <li><span><img src="./check.png" alt="" width={"20px"} /></span>  Public Sale</li>
+                  <li><span><img src="./check.png" alt="" width={"20px"} /></span>   Private Sale</li>
+                  <li><span><img src="./check.png" alt="" width={"20px"} /></span>  Rewards</li>
+                  <li><span><img src="./check.png" alt="" width={"20px"} /></span> Advisory</li>
+                  <li><span><img src="./check.png" alt="" width={"20px"} /></span> Technology Spend</li>
+                  <li><span><img src="./check.png" alt="" width={"20px"} /></span> Marketing Spend</li>
+                  <li><span><img src="./check.png" alt="" width={"20px"} /></span> Staking</li>
+                  <li><span><img src="./check.png" alt="" width={"20px"} /></span>  Reserved Tokens</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <img src="./stfx-graph.png" width={"100%"} alt="" />
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );

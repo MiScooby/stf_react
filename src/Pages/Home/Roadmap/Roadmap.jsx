@@ -46,7 +46,7 @@ const RoadmapComponent = () => {
               <Milestone
                 title="Fundraise - 5M$"
                 date="July 2021"
-                description="Commencement of Marketing - 10k Community"
+                description="Commencement of Marketing - 10k  Community"
                 completed={true}
               />
               <Milestone

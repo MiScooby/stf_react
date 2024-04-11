@@ -39,6 +39,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: load 3s normal forwards;
 }
 
 .range-indicator span {
@@ -80,20 +81,61 @@
   position: relative;
 }
 
-.mob-range {
-  display: none;
-}
 
 button.youTubbtn {
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
-
+.mob-range {
+  color: white;
+  margin-top: 21px;
+}
+@keyframes load {
+  0% { width: 0; }
+  100% { width: 30%; }
+}
+.form-check.hny label {
+  font-size: 12px;
+  color: white;
+}
+.modal-content.hny_sty {
+  background: linear-gradient(to right, rgb(137, 104, 255), rgb(175, 152, 255));
+  position: relative;
+  overflow: hidden;
+}
+.modal-content.hny_sty::before {
+  width: 229px;
+  height: 17px;
+  content: "";
+  background: linear-gradient(to right, rgb(254 228 15), rgb(254 228 15));
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: -9px;
+  transform: translate(-50%);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.modal-header h1 {
+  color: white;
+  font-size: 24px;
+}
+.modal-header {
+  border: none;
+}
+label.form-label {
+  color: white !important;
+  font-size: 14px;
+}
 @media (max-width: 768px) {
   .mob-range {
     padding-top: 35px;
     display: block;
+  }
+  .section-head h2 {
+      font-size: 22px !important;
+    line-height: 1.4 !important;
   }
 
   .srb-range {
