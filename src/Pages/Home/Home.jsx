@@ -14,8 +14,7 @@ import Token from './Token/Token';
 export function Home() {
   return (
     <>
-      <Hero />
-      <Video />
+      <Hero /> 
       <About />
       <AboutSatoshi />
       <Finance />

@@ -11,10 +11,10 @@ export function Finance() {
           </div>
         </div>
         <div className="row align-items-center">
-          <div className="col-sm-5 text-center">
+          <div className="col-md-12 col-lg-5 text-center">
             <img src="./Home/graph_11.jpg" alt="" />
           </div>
-          <div className="col-sm-7">
+          <div className="col-md-12 col-lg-7">
             <div className="text-part">
               <p>
                 At SatoshiFX we have already invested close to $11 Million in

@@ -34,7 +34,7 @@ export function Video() {
             </div>
           </div>
           <div className="row mt-5 justify-content-center">
-            <div className="col-sm-2">
+            <div className="col-sm-12 text-center">
               <Link
                 className="hny_common_btn me-2"
                 target="_blank"

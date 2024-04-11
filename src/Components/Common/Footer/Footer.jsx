@@ -77,8 +77,8 @@ export function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="col-md-3">
-              <h2>Quick Link</h2>
+            <div className="col-md-6 col-lg-3">
+              <h2>Quick Links</h2>
               <ul className="links">
                 <li>
                   <Link href="index.php">Overview</Link>
@@ -97,7 +97,7 @@ export function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-6 col-lg-4">
               <h2>Get in touch</h2>
               <p>
                 <i className="fas fa-phone"></i>&nbsp;{" "}
@@ -120,7 +120,7 @@ export function Footer() {
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
-              <p>© Copyright 2021 SatoshiFX. All Right Reserved.</p>
+              <p>© Copyright 2024 SatoshiFX. All Right Reserved.</p>
             </div>
           </div>
         </div>

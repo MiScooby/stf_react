@@ -12,7 +12,7 @@ export function Bonus() {
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-sm-5">
+            <div className="col-md-12 col-lg-6">
               <div className="cardSrb">
                 <h4>Private Sale</h4>
                 <p>
@@ -21,7 +21,7 @@ export function Bonus() {
                 </p>
               </div>
             </div>
-             <div className="col-sm-5">
+             <div className="col-md-12 col-lg-6">
               <div className="cardSrb">
                 <h4>Pre Sale</h4>
                 <p>

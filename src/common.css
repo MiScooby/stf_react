@@ -100,3 +100,15 @@
     }
  
 }   
+
+
+
+@media(max-width:991px) {
+    .top-hero-head {
+        width: 100% !important;
+    }
+    ul.list_satohifx {
+        padding-left: 6px;
+        max-width: 100% !important;
+    }
+}

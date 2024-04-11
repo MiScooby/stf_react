@@ -62,7 +62,8 @@ export function AboutSatoshi() {
                             <div className="fx_card">
                                 <div className='rati_strip'>SatoshiFX</div>
                                 <h5>Explore SatoshiFX  <br /> Derivatives</h5>
-                                <Link to="javascript:;" className="hny_common_btn ">CRM Login</Link>
+                                <Link to="https://crm.satoshifx.com/login" target='_blank' className="hny_common_btn ">CRM Login</Link>
+                                <Link to="https://crm.satoshifx.com/derivative_demo/index.php?tab=BTC-PERPETUAL" target='_blank' className="hny_common_btn ms-1">CRM Demo</Link>
                             </div>
                         </div>
 

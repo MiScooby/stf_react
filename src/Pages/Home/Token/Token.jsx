@@ -17,7 +17,7 @@ export default function Token() {
       <div className="container">
         <div className="row">
           <div className="about_title">
-            <h2>Tokenomics - STFX</h2>
+            <h2>Tokenomics - NSTF</h2>
             <div className="header_divider"></div>
           </div>
         </div>
@@ -49,7 +49,7 @@ export default function Token() {
               title="Bounty Campaign"
             />
           </div> */}
-          <p className="stfx_discription mt-4">Tokenomics aimed to make STFX a sustainable token using the infrastructure of the
+          <p className="stfx_discription mt-4">Tokenomics aimed to make NSTF a sustainable token using the infrastructure of the
             SatoshiFX platform. We have spent countless hours in modelling and projecting the tokens
             future and its usage.
           </p>
@@ -60,7 +60,7 @@ export default function Token() {
             <div className="col-lg-2 col-12
             ">
               <div className="left_stfs">
-                <h3>STFXProjections</h3>
+                <h3>NSTF Projections</h3>
               </div>
             </div>
             <div className="col-lg-10 col-12">
@@ -94,7 +94,7 @@ export default function Token() {
                 <div className="col-lg-4 col-4">
                   <div className="proj_card">
                     <h4>Total Circ Supply</h4>
-                    <h2>4B STFX</h2>
+                    <h2>4B NTSF</h2>
                   </div>
                 </div>
                 <div className="col-lg-4 col-4">
